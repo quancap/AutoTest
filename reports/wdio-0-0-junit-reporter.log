@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="TC001_Add_New_Student" timestamp="2021-03-20T12:56:34" time="33.781" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="TC001_Add New Student"/>
+      <property name="capabilities" value="chrome.89_0_4389_90.windows"/>
+      <property name="file" value=".\src\test-scripts\TC_001_AddNewStudent.js"/>
+    </properties>
+    <testcase classname="chrome.89_0_4389_90.windows.TC001_Add_New_Student" name="Add_New_Student" time="13.034">
+      <error message="Can't call click on element with selector &quot;//span[@class=&quot;mat-option-text&quot;]//strong&quot; because element wasn't found"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[routerlink=\"/student-management/student\"]"}
+RESULT: {"using":"css selector","value":"[routerlink=\"/student-management/student\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"50bd1ed3-6a93-4c46-8705-c01b13a73849","ELEMENT":"50bd1ed3-6a93-4c46-8705-c01b13a73849"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"50bd1ed3-6a93-4c46-8705-c01b13a73849","ELEMENT":"50bd1ed3-6a93-4c46-8705-c01b13a73849"}]}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[routerlink=\"/student-management/student\"]"}
+RESULT: {"using":"css selector","value":"[routerlink=\"/student-management/student\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element/50bd1ed3-6a93-4c46-8705-c01b13a73849/click - {}
+RESULT: {}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[class=\"mat-raised-button mat-button-base mat-primary\"]"}
+RESULT: {"using":"css selector","value":"[class=\"mat-raised-button mat-button-base mat-primary\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d5ee7c6e-c903-47ca-8c31-6c30f9a959f1","ELEMENT":"d5ee7c6e-c903-47ca-8c31-6c30f9a959f1"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d5ee7c6e-c903-47ca-8c31-6c30f9a959f1","ELEMENT":"d5ee7c6e-c903-47ca-8c31-6c30f9a959f1"}]}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[class=\"mat-raised-button mat-button-base mat-primary\"]"}
+RESULT: {"using":"css selector","value":"[class=\"mat-raised-button mat-button-base mat-primary\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element/d5ee7c6e-c903-47ca-8c31-6c30f9a959f1/click - {}
+RESULT: {}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[formcontrolname=\"givenName\"]"}
+RESULT: {"using":"css selector","value":"[formcontrolname=\"givenName\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"31ff1a3a-2dfd-4893-a987-52a2d3f6161f","ELEMENT":"31ff1a3a-2dfd-4893-a987-52a2d3f6161f"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"31ff1a3a-2dfd-4893-a987-52a2d3f6161f","ELEMENT":"31ff1a3a-2dfd-4893-a987-52a2d3f6161f"}]}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[formcontrolname=\"givenName\"]"}
+RESULT: {"using":"css selector","value":"[formcontrolname=\"givenName\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element/31ff1a3a-2dfd-4893-a987-52a2d3f6161f/clear - {}
+RESULT: {}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element/31ff1a3a-2dfd-4893-a987-52a2d3f6161f/value - {"text":"abc"}
+RESULT: {"text":"abc"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[formcontrolname=\"familyName\"]"}
+RESULT: {"using":"css selector","value":"[formcontrolname=\"familyName\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"339de0f5-7303-4f11-9f2c-f33e75b13d8f","ELEMENT":"339de0f5-7303-4f11-9f2c-f33e75b13d8f"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"339de0f5-7303-4f11-9f2c-f33e75b13d8f","ELEMENT":"339de0f5-7303-4f11-9f2c-f33e75b13d8f"}]}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[formcontrolname=\"familyName\"]"}
+RESULT: {"using":"css selector","value":"[formcontrolname=\"familyName\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element/339de0f5-7303-4f11-9f2c-f33e75b13d8f/clear - {}
+RESULT: {}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element/339de0f5-7303-4f11-9f2c-f33e75b13d8f/value - {"text":"def"}
+RESULT: {"text":"def"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[class=\"mat-datepicker-toggle-default-icon ng-star-inserted\"]"}
+RESULT: {"using":"css selector","value":"[class=\"mat-datepicker-toggle-default-icon ng-star-inserted\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9e8eeda2-0bbe-45f9-98af-6a2262c99f14","ELEMENT":"9e8eeda2-0bbe-45f9-98af-6a2262c99f14"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9e8eeda2-0bbe-45f9-98af-6a2262c99f14","ELEMENT":"9e8eeda2-0bbe-45f9-98af-6a2262c99f14"}]}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[class=\"mat-datepicker-toggle-default-icon ng-star-inserted\"]"}
+RESULT: {"using":"css selector","value":"[class=\"mat-datepicker-toggle-default-icon ng-star-inserted\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element/9e8eeda2-0bbe-45f9-98af-6a2262c99f14/click - {}
+RESULT: {}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"xpath","value":"//td[@aria-label=\"March 3, 2021\"]"}
+RESULT: {"using":"xpath","value":"//td[@aria-label=\"March 3, 2021\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element/7bfca7c2-b46d-4bd8-b4bd-2a10becb1452/click - {}
+RESULT: {}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[formcontrolname=\"school\"]"}
+RESULT: {"using":"css selector","value":"[formcontrolname=\"school\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ecc783f6-7305-4363-b1d7-f94551aa0979","ELEMENT":"ecc783f6-7305-4363-b1d7-f94551aa0979"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ecc783f6-7305-4363-b1d7-f94551aa0979","ELEMENT":"ecc783f6-7305-4363-b1d7-f94551aa0979"}]}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[formcontrolname=\"school\"]"}
+RESULT: {"using":"css selector","value":"[formcontrolname=\"school\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element/ecc783f6-7305-4363-b1d7-f94551aa0979/clear - {}
+RESULT: {}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element/ecc783f6-7305-4363-b1d7-f94551aa0979/value - {"text":"TEST SCHOOL 11"}
+RESULT: {"text":"TEST SCHOOL 11"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"css selector","value":"[formcontrolname=\"school\"]"}
+RESULT: {"using":"css selector","value":"[formcontrolname=\"school\"]"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element/ecc783f6-7305-4363-b1d7-f94551aa0979/click - {}
+RESULT: {}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/element - {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+RESULT: {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/elements - {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+RESULT: {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/elements - {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+RESULT: {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/elements - {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+RESULT: {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/elements - {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+RESULT: {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/elements - {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+RESULT: {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/elements - {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+RESULT: {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/elements - {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+RESULT: {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/elements - {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+RESULT: {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/elements - {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+RESULT: {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+COMMAND: POST /session/79fddb707238b59629e27a6790266fa5/elements - {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+RESULT: {"using":"xpath","value":"//span[@class=\"mat-option-text\"]//strong"}
+COMMAND: DELETE /session/79fddb707238b59629e27a6790266fa5/window - {}
+RESULT: {}
+COMMAND: DELETE /session/79fddb707238b59629e27a6790266fa5 - {}
+RESULT: {}
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+Error: Can't call click on element with selector "//span[@class="mat-option-text"]//strong" because element wasn't found
+    at Object.implicitWait [as default] (C:\Users\12124\Downloads\AutomationWebDriverIO-main\node_modules\webdriverio\build\utils\implicitWait.js:26:19)
+    at async Element.elementErrorHandlerCallbackFn (C:\Users\12124\Downloads\AutomationWebDriverIO-main\node_modules\webdriverio\build\middlewares.js:13:29)
+    at async Element.runCommandWithHooks (C:\Users\12124\Downloads\AutomationWebDriverIO-main\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+    at Element.runCommandWithHooks (C:\Users\12124\Downloads\AutomationWebDriverIO-main\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+    at Element.wrapCommandFn (C:\Users\12124\Downloads\AutomationWebDriverIO-main\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+    at Element.elementErrorHandlerCallback (C:\Users\12124\Downloads\AutomationWebDriverIO-main\node_modules\webdriverio\build\middlewares.js:34:12)
+    at NewStudent.inputSchool (C:\Users\12124\Downloads\AutomationWebDriverIO-main\src\page-objects\NewStudent.js:36:24)
+    at Context.<anonymous> (C:\Users\12124\Downloads\AutomationWebDriverIO-main\src\test-scripts\TC_001_AddNewStudent.js:33:10)
+    at Context.executeSync (C:\Users\12124\Downloads\AutomationWebDriverIO-main\node_modules\@wdio\sync\build\index.js:25:22)
+    at C:\Users\12124\Downloads\AutomationWebDriverIO-main\node_modules\@wdio\sync\build\index.js:46:68
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

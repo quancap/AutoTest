@@ -1,0 +1,27 @@
+{
+  "name": "AutomationWebdriverIO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^6.12.1",
+    "@wdio/local-runner": "^6.7.3",
+    "@wdio/sync": "^6.7.3",
+    "chai": "^4.2.0",
+    "js-datepicker": "^5.18.0",
+    "webdriverio": "^6.7.3"
+  },
+  "devDependencies": {
+    "@wdio/junit-reporter": "^6.7.0",
+    "@wdio/mocha-framework": "^6.7.3"
+  },
+  "bin": {
+    "execute": "index.js"
+  }
+}

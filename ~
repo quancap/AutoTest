@@ -1,0 +1,16 @@
+upgrade code
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Quan Pham <quan.pham@us.opswat.com>
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   debug.log
+#	modified:   reports/wdio-0-0-junit-reporter.log
+#	new file:   src/handleMultiTabs.js
+#	new file:   src/multipleTestCases.js
+#	modified:   test.conf.js
+#
